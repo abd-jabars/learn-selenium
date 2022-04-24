@@ -2,5 +2,5 @@
 2. download webdriver & add it to PATH
 3. create project directory
 4. npm init
-5. npm install selenium-webdriver chromedriver chai mocha
-6. to run script in terminal: $ node path/to/file.js
+5. npm install selenium-webdriver chromedriver geckodriver chai mocha
+6. to run script in terminal: $ npx mocha --no-timeout "path/to/file.js" || npm test
